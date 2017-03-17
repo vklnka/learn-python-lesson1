@@ -10,7 +10,7 @@ for a in word:
 
 #mark
 mark_all = 0 #сумма всех оценок
-amount_class = 0 #сумма количества оценок
+amount_class = 0 #число оценок
 school = [{'school_class': '4a', 'scores': [3,4,4,5,2]}, {'school_class': '4b', 'scores': [5,3,5,5,5]}, {'school_class': '4v', 'scores': [1,5,5,2,3]}]
 for school_class in school: #запускаем цикл который вытащит словари из списка
     class_mark = 0
