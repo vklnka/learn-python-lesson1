@@ -8,7 +8,7 @@ def ask_user():
                 break
             else:
                 print("Я отвечаю на ваш вопрос что нибуть")
-    except:
+    except (ValueError, TypeError, IndexError, KeyError):
         print(" Пока!")
         pass
 
