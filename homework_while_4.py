@@ -1,4 +1,5 @@
-#get_answer()
+def get_answer():
+    print(ask_user())
 
 def ask_user():
     while True:
@@ -8,4 +9,5 @@ def ask_user():
             break
         else:
             print("Я отвечаю на ваш вопрос что нибуть")
-ask_user()
+
+get_answer()
